@@ -6,6 +6,8 @@
 #把下面的语句写入/etc/sudoers,保证在使用sudo是不提示密码
 #raysuen ALL=(root) NOPASSWD:/sbin/mount
 #raysuen ALL=(root) NOPASSWD:/sbin/umount
+#raysuen ALL=(root) NOPASSWD:/sbin/mkdir
+
 
 ####################################################################################
 #挂载单个分区到创建的目录，默认挂载目录为/Volumes
