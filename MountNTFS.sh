@@ -13,7 +13,7 @@
 #挂载单个分区到创建的目录，默认挂载目录为/Volumes
 ####################################################################################
 Mount_NTFS(){
-	mkdir /Volumes/$2
+	sudo mkdir /Volumes/$2
 	sudo mount -t ntfs -o rw,auto,nobrowse $1 /Volumes/$2
 	ln -s /Volumes/$2 ~/Desktop/$2
 	ln -s /Volumes/$2 ~/$2
